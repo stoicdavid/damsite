@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Damsite</title>
-    <%= csrf_meta_tags %>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- Responsive meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- IE Compatibility meta -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Description meta -->
+        <meta name="description" content="...">
+        <!-- Author meta -->
+        <meta name="author" content="Bootstrap Temple">
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+        <!-- Page Title -->
+        <title>Italiano Restaurant - Bootstrap Template from the Bootstrap Temple</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico">
+		<%= stylesheet_link_tag 'application', media: 'all'%>
 
-  <body>
-    <%= yield %>
-  </body>
+        <!-- Bootstrap -->
+        <!-- Custom font icons -->
+        <link rel="stylesheet" href="https://file.myfontastic.com/6AeAYiqp5KBjSiZ2tE8WJW/icons.css">
+
+	    <%= javascript_include_tag 'application'%>
+	    <%= csrf_meta_tags %>
+    </head>
+    <body>
+		<%= yield %>
+
+
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0dSWcBx-VghzhzQB6oCMTgeXMOhCYTvk"></script>
+        <script src="js/map.min.js"></script>
+    </body>
 </html>
