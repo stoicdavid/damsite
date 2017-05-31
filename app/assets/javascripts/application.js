@@ -12,6 +12,7 @@
 //
 //=	require modernizr.custom.79639.min
 //= require jquery
+//= require jquery_ujs
 //= require rails-ujs
 //= require bootstrap-sprockets
 //= require jquery.ba-cond.min
