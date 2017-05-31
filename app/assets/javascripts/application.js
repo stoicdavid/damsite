@@ -10,10 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//=	require modernizr.custom.79639.min
 //= require jquery
-//= require jquery_ujs
 //= require rails-ujs
+//=	require modernizr.custom.79639.min
 //= require bootstrap-sprockets
 //= require jquery.ba-cond.min
 //= require jquery.slitslider.min
