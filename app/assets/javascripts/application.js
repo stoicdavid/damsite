@@ -25,7 +25,7 @@
 //=	require smooth.scroll.min
 //=	require map.min
 //= require script
-//= require_tree .
+
 
 
 
