@@ -24,6 +24,7 @@
 //= require jquery.validate.min
 //=	require smooth.scroll.min
 //=	require map.min
-//= require script	
+//= require script
+//= require tree .
 
 
