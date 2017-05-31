@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: candybar_production
+  username: candybar
+  password: <%= ENV['719110'] %>
