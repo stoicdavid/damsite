@@ -10,9 +10,20 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery	
+//=	require modernizr.custom.79639.min
+//= require jquery
 //= require rails-ujs
-//= require turbolinks
 //= require bootstrap-sprockets
+//= require jquery.ba-cond.min
+//= require jquery.slitslider.min
+//=	require owl.carousel.min
+//=	require lightbox.min
+//=	require datepicker.min
+//=	require datepicker.en.min
+//=	require timepicki.min
+//= require jquery.validate.min
+//=	require smooth.scroll.min
+//=	require map.min
 //= require script	
-//= require_tree .
+
+

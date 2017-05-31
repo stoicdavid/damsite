@@ -12,7 +12,7 @@
         <meta name="author" content="Bootstrap Temple">
 
         <!-- Page Title -->
-        <title>Italiano Restaurant - Bootstrap Template from the Bootstrap Temple</title>
+        <title>Candy Bar - Mesas de Dulces y Barras</title>
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico">
 		<%= stylesheet_link_tag 'application', media: 'all'%>
@@ -21,15 +21,14 @@
         <!-- Custom font icons -->
         <link rel="stylesheet" href="https://file.myfontastic.com/6AeAYiqp5KBjSiZ2tE8WJW/icons.css">
 
+
 	    <%= javascript_include_tag 'application'%>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe10cp2Q35HkruYr9zuS0-KeAMjmI7e0M&callback=init"
+		    async defer></script>		
 	    <%= csrf_meta_tags %>
     </head>
     <body>
 		<%= yield %>
 
-
-
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0dSWcBx-VghzhzQB6oCMTgeXMOhCYTvk"></script>
-        <script src="js/map.min.js"></script>
     </body>
 </html>
